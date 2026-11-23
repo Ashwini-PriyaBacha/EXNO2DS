@@ -41,6 +41,23 @@ STEP 8: Use heatmap method of representation to show relationships between two v
 <img width="1768" height="207" alt="image" src="https://github.com/user-attachments/assets/d9dd3443-6fa9-4e67-8531-e7c56af03ce5" />
 <img width="1758" height="792" alt="image" src="https://github.com/user-attachments/assets/c8927a6a-6373-470e-a3c5-ee7d148b3260" />
 
+# Summary of Work Performed
+
+In this experiment, the Titanic dataset was loaded into Python using Pandas and analyzed using NumPy, Seaborn, and Matplotlib. The dataset was examined using functions such as head(), tail(), info(), describe(), shape, and nunique() to understand its structure, data types, statistical properties, and unique values.
+
+Missing values were identified using isnull().sum() and handled using median imputation for the Age column, mode imputation for the Embarked column, and replacing missing Cabin values with "Unknown".
+
+Outliers in the Age column were detected using boxplots and removed using the Interquartile Range (IQR) method. Data visualization techniques such as countplots and distribution plots were used to analyze passenger survival and age distribution. Cross-tabulation was performed to study the relationship between gender and survival, while a correlation heatmap was used to visualize relationships among numerical variables.
+
+Techniques Used
+- Data inspection and statistical analysis
+- Missing-value handling
+- Outlier detection using boxplots
+- Outlier removal using IQR
+- Countplot for categorical data
+- Distribution plot (Displot)
+- Cross-tabulation
+- Correlation heatmap
 
 
 # RESULT
